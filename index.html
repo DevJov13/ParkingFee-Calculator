@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parking Fee Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Parking Fee Calculator</h2>
+    <label for="time-in">Time In:</label>
+    <input type="datetime-local" id="time-in">
+    <br>
+    <label for="time-out">Time Out:</label>
+    <input type="datetime-local" id="time-out">
+    <br>
+    <button onclick="calculateFee()">Compute</button>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
